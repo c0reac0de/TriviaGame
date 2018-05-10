@@ -1,0 +1,51 @@
+<!-- Step 1: Create the Layout. -->
+<!-- Step 2: Flag key sections with specific id names. These will be replaced by JavaScript -->
+<!-- Step 2: Link to JavaScript (at end of the file) -->
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset='UTF-8'>
+    <title>Trivia Game</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  </head>
+
+  <body>
+
+    <!-- Bootstrap Container will hold everything. -->
+    <div class="container">
+
+      <!-- Jumbotron holds the title section. -->
+      <div class='jumbotron'>
+        <div class='container'>
+          <h1>Bee Curious trivia Game</h1>
+          <h2>Guess the answer to the questions below</h2>
+          <div>Countdown Timer:</div>
+          <form>
+            q1:There is only one species of honey bee in the world<br>
+          <input type='checkbox' name='a1' value='a1'> True
+          <input type='checkbox' name='a2' value='a2'>False<br>
+          q2:The honey bee is originally from South America<br>
+          <input type='checkbox' name='b3' value='b3'>True
+          <input type='checkbox' name='b4' value='b4'>False<br>
+          q3:The bumble bee collects tomato pollen with its feet<br>
+          <input type='checkbox' name='c5' value='c5'>True
+          <input type='checkbox' name='c5' value='c5'>False<br>
+          <input type='submit' value='done'>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="w5wordguess.js"></script>
+
+  </body>
+
+</html>
